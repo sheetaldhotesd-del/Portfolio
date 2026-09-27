@@ -389,3 +389,44 @@ nav a{
     }
 
 }
+
+/* Mobile Responsive */
+@media (max-width: 700px) {
+
+    .container {
+        grid-template-columns: 1fr;
+        width: 100%;
+        padding: 15px;
+        gap: 20px;
+    }
+
+    .sidebar {
+        width: 100%;
+        height: auto;
+        padding: 25px;
+    }
+
+    .maincontent {
+        width: 100%;
+        padding: 20px;
+    }
+
+    nav {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+
+    .paragraph {
+        text-align: left;
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+
+    .project-container {
+        grid-template-columns: 1fr;
+    }
+}
